@@ -1,0 +1,151 @@
+
+$project-blue: #3B5A76;
+$project-grey: #EDEDED;
+
+body {
+  position: relative;
+  background-color: $project-grey;
+  padding-top: 80px;    
+}
+
+main {
+  background-color: $project-grey;
+}
+
+main > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80px;
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  border-bottom: none; 
+}
+
+#photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #BBBBBB;
+}
+
+div.container {
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  border-top: none;
+}
+
+header.container {
+  width: 100%;
+  margin-bottom: 15px;
+  h1 {
+    line-height: 1.4;
+    margin-top: 30px;
+    text-align: center;
+  }
+  span:first-of-type {
+    display: table;
+    margin: auto;
+  }
+  span:last-of-type {
+    color: $project-blue;
+    display: inline;
+  }
+  img {
+    margin: 0 auto;
+  }
+}
+
+section {
+  padding-left: 15px;
+  padding-right: 15px;
+  p {
+    font-size: 17px;
+  }
+}
+
+section.contact {
+  margin-bottom: 30px;
+  img {
+    width: 25px;
+    margin-right: 10px;
+  }
+  li {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+section.proSkills {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: $project-blue;
+  font-size: 27px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+table {
+  background-color: $project-grey;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+tr td {
+  vertical-align: top;
+  padding: 15px;
+  &:first-child {
+    width: 22%;  
+  }
+  &:last-child {
+    width: 78%;
+    padding-left: 0;
+  }
+}
+
+div.progress-bar {
+  line-height: 17px;
+}
+
+div.alert {
+  font-size: 18px;
+}
+
+section.projects {
+  li {
+    margin-bottom: 40px;
+    margin-left: 15px;
+  }
+}
+
+footer {
+  height: 70px;
+  background-color: $project-blue;
+  color: white;
+  p {
+    font-size: 17px;
+    padding: 15px;
+  }
+}
+
+// tablets display
+
+@media (min-width: 750px) {
+  main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  section.projects {
+    li {
+      display: inline-block;
+    }
+  }
+}

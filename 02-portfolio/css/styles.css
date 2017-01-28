@@ -1,0 +1,182 @@
+/* line 5, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+body {
+  position: relative;
+  background-color: #EDEDED;
+  padding-top: 80px;
+}
+
+/* line 11, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+main {
+  background-color: #EDEDED;
+}
+
+/* line 15, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+main > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80px;
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  border-bottom: none;
+}
+
+/* line 25, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+#photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #BBBBBB;
+}
+
+/* line 32, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+div.container {
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  border-top: none;
+}
+
+/* line 40, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+header.container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* line 43, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+header.container h1 {
+  line-height: 1.4;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* line 48, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+header.container span:first-of-type {
+  display: table;
+  margin: auto;
+}
+
+/* line 52, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+header.container span:last-of-type {
+  color: #3B5A76;
+  display: inline;
+}
+
+/* line 56, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+header.container img {
+  margin: 0 auto;
+}
+
+/* line 61, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 64, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+section p {
+  font-size: 17px;
+}
+
+/* line 69, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+section.contact {
+  margin-bottom: 30px;
+}
+
+/* line 71, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+section.contact img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+/* line 75, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+section.contact li {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 82, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+section.proSkills {
+  margin-bottom: 30px;
+}
+
+/* line 86, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+h2 {
+  color: #3B5A76;
+  font-size: 27px;
+}
+
+/* line 91, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* line 96, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+table {
+  background-color: #EDEDED;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 102, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+tr td {
+  vertical-align: top;
+  padding: 15px;
+}
+
+/* line 105, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+tr td:first-child {
+  width: 22%;
+}
+
+/* line 108, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+tr td:last-child {
+  width: 78%;
+  padding-left: 0;
+}
+
+/* line 114, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+div.progress-bar {
+  line-height: 17px;
+}
+
+/* line 118, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+div.alert {
+  font-size: 18px;
+}
+
+/* line 123, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+section.projects li {
+  margin-bottom: 40px;
+  margin-left: 15px;
+}
+
+/* line 129, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+footer {
+  height: 70px;
+  background-color: #3B5A76;
+  color: white;
+}
+
+/* line 133, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+footer p {
+  font-size: 17px;
+  padding: 15px;
+}
+
+@media (min-width: 750px) {
+  /* line 142, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+  main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  /* line 147, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/02-portfolio/sass/styles.scss */
+  section.projects li {
+    display: inline-block;
+  }
+}
+
+/*# sourceMappingURL=../css/styles.map */
