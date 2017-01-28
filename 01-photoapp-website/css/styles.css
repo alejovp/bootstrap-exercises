@@ -1,0 +1,207 @@
+/* line 4, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/_about.scss */
+main > div > h1 {
+  margin: 0;
+  padding: 20px 10px 20px 15px;
+  background-color: #1caa98;
+  color: white;
+}
+
+/* line 10, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/_about.scss */
+main > div h3 {
+  margin-top: 10px;
+}
+
+/* line 13, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/_about.scss */
+main > div p {
+  margin-bottom: 30px;
+}
+
+/* line 18, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/_about.scss */
+body > main > div:nth-child(3) {
+  background-color: #1caa98;
+  margin: 0;
+  width: 100%;
+  padding-left: 74px;
+}
+
+/* line 25, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/_about.scss */
+main > div:first-child {
+  background-color: #1caa98;
+}
+
+@media (min-width: 970px) {
+  /* line 30, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/_about.scss */
+  main > h1 {
+    padding-left: 88px;
+  }
+}
+
+/* line 6, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+header.container {
+  padding: 0;
+  width: 100%;
+}
+
+/* line 11, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* line 15, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+.navbar-default .navbar-brand {
+  color: #1caa98;
+}
+
+/* line 19, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 22, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+a:hover {
+  color: #1caa98;
+  text-decoration: none;
+}
+
+/* line 28, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+main.container {
+  padding: 0;
+  width: 100%;
+}
+
+/* line 33, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+.container .jumbotron {
+  border-radius: 0;
+}
+
+/* line 35, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+.container .jumbotron img {
+  margin-right: 20px;
+}
+
+/* line 40, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+div.jumbotron {
+  padding-bottom: 0;
+  background-image: url("../img/site_showcase_bg.jpg");
+  color: white;
+}
+
+/* line 44, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+div.jumbotron h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 48, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+div.jumbotron h1 span {
+  color: #1caa98;
+}
+
+/* line 49, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+div.jumbotron p {
+  font-weight: 400;
+}
+
+/* line 50, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+div.jumbotron p:last-child {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* line 56, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+main > div.container {
+  margin-top: 60px;
+}
+
+/* line 60, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+section.row {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #1caa98;
+  padding-left: 40px;
+}
+
+/* line 66, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+section.row h2 {
+  color: white;
+  font-size: 34px;
+}
+
+/* line 70, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+section.row ul {
+  color: white;
+}
+
+/* line 73, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+section.row li {
+  font-size: 19px;
+}
+
+/* line 76, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+section.row div.col-sm-6 {
+  padding: 0;
+}
+
+/* line 81, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+footer div.container {
+  background-color: #333333;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 85, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+footer div.container ul {
+  color: white;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 93, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+footer div.container p {
+  color: white;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 101, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+footer div.container div.row div {
+  height: 80px;
+}
+
+@media (max-width: 560px) {
+  /* line 107, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+  section.row {
+    padding-left: 20px;
+  }
+  /* line 110, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+  div.jumbotron {
+    text-align: center;
+  }
+  /* line 112, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+  div.jumbotron p:last-child {
+    padding-top: 0;
+  }
+  /* line 118, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+  .container .jumbotron img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  /* line 124, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+  footer div.container {
+    text-align: center;
+  }
+  /* line 128, /Users/zoraidamoreno/Alejandro/SkyLabCoders/projects/bootstrap-exercises/01-photoapp-website/sass/styles.scss */
+  body > main > div:nth-child(3) {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=../css/styles.map */

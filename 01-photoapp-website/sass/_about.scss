@@ -1,0 +1,33 @@
+$green-project: #1caa98;
+
+main > div { 
+  & > h1 {
+    margin: 0;
+    padding: 20px 10px 20px 15px;
+    background-color: $green-project;
+    color: white;
+  }
+  h3 {
+    margin-top: 10px;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+body > main > div:nth-child(3) {
+  background-color: $green-project;
+  margin: 0;
+  width: 100%;
+  padding-left: 74px;
+}
+
+main > div:first-child {
+  background-color: $green-project;
+}
+
+@media (min-width: 970px) {
+  main > h1 {
+    padding-left: 88px;
+  }
+}
